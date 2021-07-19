@@ -1,8 +1,4 @@
 #!/bin/bash
 
-echo "[EZQMK] Updating QMK..."
-cd .files/qmk_firmware
-git checkout -- .
-git pull
-cp -R ../../config/* keyboards/crkbd
-sudo make crkbd:aslo:flash
+export QMK_HOME="${PWD}/.files/qmk_firmware"
+qmk compile --keyboard crkbd --keymap aslo
