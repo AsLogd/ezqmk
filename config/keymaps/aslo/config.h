@@ -28,8 +28,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
-#define SSD1306OLED
-
 #define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
@@ -44,3 +42,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_SAT_STEP 17
     #define RGBLIGHT_VAL_STEP 17
 #endif
+
+#define MOUSEKEY_DELAY 50
+#define MOUSEKEY_INTERVAL 50
+// Enable constant speed
+#define MK_3_SPEED
+#define MK_C_OFFSET_UNMOD 16
+#define MK_C_INTERVAL_UNMOD 16
+
+#define MK_C_OFFSET_0 	16
+#define MK_C_INTERVAL_0 32
+
+#define MK_C_OFFSET_1 	32
+#define MK_C_INTERVAL_1 16
+
+#define MK_C_OFFSET_2 	45
+#define MK_C_INTERVAL_2 16
+
+#define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
