@@ -88,11 +88,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [NUMBERS] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      _______,  ES_GRV, KC_COMM,  KC_DOT, ES_BSLS, ES_LABK,                      ES_RABK, ES_MINS, ES_LBRC, ES_RBRC, ES_ACUT, KC_BSPC,    
+      _______,  ES_GRV, KC_COMM,  KC_DOT, ES_BSLS, ES_LABK,                      ES_RABK, ES_PLUS, ES_LBRC, ES_RBRC, ES_ACUT, KC_BSPC,    
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       _______,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                        KC_6,    KC_7,    KC_8,    KC_9,    KC_0, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      _______, ES_QUES,   ES_AT, ES_HASH, ES_TILD, ES_CIRC,                    KC_PIPE, ES_PLUS, ES_LCBR,ES_RCBR,RSFT(KC_LBRC),ES_NTIL,  
+      _______, ES_QUOT,   ES_AT, ES_HASH, ES_TILD, ES_CIRC,                      ES_PIPE, ES_MINS, ES_LCBR,ES_RCBR,RSFT(KC_LBRC),ES_NTIL,  
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           _______, _______, _______,    _______,MO(CONFIG),_______
                                       //`--------------------------'  `--------------------------'
@@ -138,7 +138,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,    KC_Z,    KC_X,    KC_C,   KC_V,     KC_B,                         KC_N,    KC_M, KC_QUOT,  ES_PLUS, ES_MINS,TG(GAME),
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LALT, KC_COMM, KC_SPC,     KC_ENT,   KC_DOT,  KC_RALT
+                                          KC_LALT, KC_DOWN, KC_SPC,     KC_LEFT,   KC_UP, KC_RIGHT
                                       //`--------------------------'  `--------------------------'
   ),
 };

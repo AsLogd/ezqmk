@@ -47,16 +47,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_INTERVAL 50
 // Enable constant speed
 #define MK_3_SPEED
-#define MK_C_OFFSET_UNMOD 16
-#define MK_C_INTERVAL_UNMOD 16
+#define MK_C_OFFSET_UNMOD 8
+#define MK_C_INTERVAL_UNMOD 32
 
-#define MK_C_OFFSET_0 	16
+#define MK_C_OFFSET_0 	8
 #define MK_C_INTERVAL_0 32
 
-#define MK_C_OFFSET_1 	32
+#define MK_C_OFFSET_1 	24
 #define MK_C_INTERVAL_1 16
 
-#define MK_C_OFFSET_2 	45
+#define MK_C_OFFSET_2 	40
 #define MK_C_INTERVAL_2 16
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
